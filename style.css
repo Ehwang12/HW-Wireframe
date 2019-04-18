@@ -1,6 +1,7 @@
 * {
     padding: 0;
     margin: 0;
+   
 }
 
 body {
@@ -8,6 +9,7 @@ body {
     color: #777;
     background: #777;
     width: 960px;
+    margin: 0;
     font-size: 18px;
     text-align: center;
 }
@@ -33,24 +35,34 @@ section {
     background: #ebebeb;
 }
 
-article {
-    display: block;
-    width: 450px;
-    height: 235px;
+#section {
+    padding-bottom: 20px;
+}
+
+.articleWhole {
+    display: inline-block
+
+    
     color: #ebebeb;
     background: #777;
 }
 
-h1 {
+.article {
+    padding-top: 20px;
+}
+
+.headerTwo {
+    height: 35px;
     padding: 20px;
-    margin: 10px;
+    margin: 20px;
     color: #777;
     background: #ebebeb
 }
 
 p {
+    height: 35px;
     padding: 20px;
-    margin: 10px;
+    margin: 20px;
     color: #777;
     background: #ebebeb
 }
@@ -65,11 +77,10 @@ aside {
 }
 
 footer {
-    clear: both;
+    display: inline-block;
     width: 880px;
     height: 24px;
     margin: 10px;
-    
     padding: 30px;
     background: #ebebeb;
 }
