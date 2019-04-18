@@ -1,0 +1,49 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+html {
+
+    background: #95979b;
+}
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    color: #777;
+    width: 960px;
+    font-size: 18px;
+}
+
+header {
+    
+    background: #ebebeb;
+}
+
+nav {
+    background: #ebebeb;
+}
+
+section {
+    width: 495px;
+    background: #ebebeb;
+}
+
+article {
+    color: #ebebeb;
+    background: #777;
+}
+
+.box {
+    background: #ebebeb;
+}
+
+aside {
+    background: #ebebeb;
+}
+
+footer {
+    background: #ebebeb;
+}
+
